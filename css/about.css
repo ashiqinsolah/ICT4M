@@ -9,6 +9,18 @@ ol {
     font-family: 'Open Sans', sans-serif;
     background: white;
     width: auto;
+   background-image: url("http://www.sigd.org/wp-content/uploads/edd/pattern-1-tessellated-300x300.jpg");
+  }
+
+  #title{
+  text-align: center;
+  font-size: 66px;
+  font-style: bold;
+  background-color: #22889a;
+  color: white;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   }
 
 .menu {
@@ -893,20 +905,20 @@ ol {
 /**/
 /**content*/
 .up{
-  background: #f3f3f3;
   width: 100%;
   float:left;
    overflow: hidden;
    -webkit-border-radius: 10px 10px 0px 0px;
 -moz-border-radius: 10px 10px 0px 0px;
 border-radius: 10px 10px 0px 0px;
+background: white;
 }
 
 .up-left{
   width: 800px;
   height: 500px;
   text-align: center;
-  background: #f3f3f3;
+  background: white;
   font-size: 18px;
   margin-left: 260px;
 
@@ -945,7 +957,7 @@ border-radius: 10px 10px 0px 0px;
   position: relative;
 }
 .square-brackets-quote blockquote:before {
-  background-color: #f3f3f3;
+  background-color: white;
   bottom: -1em;
   content: "";
   left: 2em;
@@ -986,7 +998,7 @@ border-radius: 10px 10px 10px 10px;
 
 .icon{
   margin-top: 20px;
-  float: right;
+  position: relative;
 
 }
 
